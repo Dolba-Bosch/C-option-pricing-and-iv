@@ -1,0 +1,9 @@
+#include <iostream>
+#include "option.h"
+
+double AmCall(double S, double X, double sigma, double Q, double r, double Tdays, size_t Nofnodes);
+double AmPut(double S, double X, double sigma, double Q, double r, double Tdays, size_t Nofnodes);
+double PutIV(double S, double X, double Q, double r, double Tdays, size_t Nofnodes, double option_price);
+double CallIV(double S, double X, double Q, double r, double Tdays, size_t Nofnodes, double option_price);
+double PutIV(double S, double X, double Q, double r, double Tdays, size_t Nofnodes, double option_price);
+double CallIV(double S, double X, double Q, double r, double Tdays, size_t Nofnodes, double option_price);
